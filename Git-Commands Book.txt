@@ -1,0 +1,47 @@
+GitHub tutorial
+https://tableless.com.br/tudo-que-voce-queria-saber-sobre-git-e-github-mas-tinha-vergonha-de-perguntar/
+https://devhints.io/git-log
+
+Git Bash -> Fornece comandos do linux.
+
+git config --local -> configuração de user.name, user.password, user.email.
+git clear -> Faz uma limpa do git bash, sem perder o historico de comandos anteriores.
+git init -> Inializa um repositositorio.
+git status -> Verifica e monitora os arquivos daquele repositorio local
+git add -> Adiciona arquivos do repositorio local para commit.
+commit -m -> Adiciona uma mensagem identificadora ao commit realizado.
+git push ->  trazer e enviar as nossas alterações para um repositório remoto.
+git log -> Mostra as alterações realizadas no projeto, dizendo os nomes dos commits, e linhas alteradas e seu historico.
+git log --oneline -> Mostra o historico de modificações de forma resumida.
+git log -p -> Mostra as alteracoes realizadas no historico de uploads.
+O gitigone serve para colocarmos todos os nomes dos arquivos que não queremos levar em consideração, ou seja irá ignorar.
+
+git pull -> atualizar o nosso repositório com os dados no repositório remoto.(Ex: git pull local master)
+
+Devemos gerar um commit sempre que a nossa base de código está em um estado do qual gostaríamos de nos lembrar. Nunca devemos ter commits de códigos que não funcionam, mas também não é interessante deixar para commitar apenas no final de uma feature.
+
+O que são repositórios remotos;
+Como criar um repositório Git sem uma cópia dos arquivos (com --bare) para ser utilizado como servidor;
+Como adicionar links para os repositórios remotos, com o comando git remote add;
+Como baixar um repositório pela primeira vez, clonando-o com o comando git clone;
+Como trazer e enviar as nossas alterações para um repositório remoto, com git push;
+Como atualizar o nosso repositório com os dados no repositório remoto, utilizando git pull;
+O que é e para que serve o GitHub;
+Como criar um repositório no GitHub;
+Como adicionar um repositório do GitHub como repositório remoto.
+
+Branchs("Ramos")git 
+
+git branch <nome_branch> -> para criar uma nova branch
+git branch -> para verificar em que branch estou trabalhando.
+git checkout <nome_branch> -> para mudar de branch.
+
+
+
+
+
+
+
+
+
+
